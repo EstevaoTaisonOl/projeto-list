@@ -1,0 +1,295 @@
+@media (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100%;
+        background-color: #222;
+    }
+    
+    body{
+        height: 100%;
+    }
+    
+    
+    .div-header{
+        background-color: #111;
+        text-align: center;
+        color: #f6f6f6;
+    }
+    
+    .main{
+        height: 100%;
+    }
+    
+    .container{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content{
+            width: 50%;
+            height: 30%;
+            padding: 40px;
+            padding-bottom: 50px;
+            background-color: #111;
+            color: #f6f6f6;
+            border-radius: 20px;
+            .header-content{
+                text-align: center;
+                height:30%;
+            }
+    
+            .infos{
+                margin-top: 20px;
+                display: flex;
+                .div-input{
+                    width: 100%;
+                    input{
+                        width: 80%;
+                        background-color: #111;
+                        padding: 20px;
+                        color: #f6f6f6;
+                        border: none;
+                        border-bottom: 2px rgba(255, 255, 255, 0.804) solid;
+                        outline: none   ;
+                        font-size: 100%;
+                        
+                    }
+                }
+                .div-button{
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    button{
+                        padding: 20px;
+                        border-radius: 15px;
+                        background-color: rgb(65, 168, 228);
+                        border: none;
+                        width: 100%;
+                        font-size: 100%;
+                    }
+    
+                    button:hover{
+                        background-color: rgba(51, 135, 183, 0.703);
+                    }
+                }
+            }
+        }
+    }
+
+    .listas{
+        .listaC{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+            .lista{
+                background-color: #333;
+                color: #f6f6f6;
+                width: 50%;
+                padding: 10px;
+                border-radius: 20px;
+                display: flex;
+                h1{
+                    width: 100%;
+                    
+                }
+
+                input{
+                    margin-top: 10px;
+                    width: 15%;
+                    height: 60%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100%;
+        background-color: #222;
+    }
+    
+    body{
+        height: 100%;
+    }
+    
+    
+    .div-header{
+        background-color: #111;
+        text-align: center;
+        color: #f6f6f6;
+    }
+
+    .main{
+        height: 100%;
+    }
+    
+    
+    .container{
+        height: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content{
+            width: 80%;
+            height: 20%;
+            padding: 20px;
+            background-color: #111;
+            color: #f6f6f6;
+            border-radius: 20px;
+            .header-content{
+                text-align: center;
+                height:30%;
+            }
+    
+            .infos{
+                margin-top: 20px;
+                display: flex;
+                .div-input{
+                    width: 100%;
+                    input{
+                        width: 80%;
+                        background-color: #111;
+                        padding: 20px;
+                        color: #f6f6f6;
+                        border: none;
+                        border-bottom: 2px rgba(255, 255, 255, 0.804) solid;
+                        outline: none;
+                        font-size: 100%;
+                    }
+                }
+                .div-button{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    button{
+                        padding: 20px;
+                        border-radius: 15px;
+                        background-color: rgb(65, 168, 228);
+                        border: none;
+                        width: 100%;
+                        font-size: 100%;
+                    }
+    
+                    button:hover{
+                        background-color: rgba(51, 135, 183, 0.703);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html{
+        height: 100%;
+        background-color: #222;
+    }
+    
+    body{
+        height: 100%;
+    }
+    
+    
+    .div-header{
+        background-color: #111;
+        text-align: center;
+        color: #f6f6f6;
+    }
+    
+    .main{
+        height: 80%;
+    }
+    
+    .container{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content{
+            width: 80%;
+            height: 25%;
+            padding: 20px;
+            background-color: #111;
+            color: #f6f6f6;
+            border-radius: 20px;
+            padding-bottom: 60px;
+            .header-content{
+                text-align: center;
+                height:30%;
+            }
+            
+    
+            .infos{
+                margin-top: 20px;
+                display: flex;
+                .div-input{
+                    width: 100%;
+                    input{
+                        width: 80%;
+                        background-color: #111;
+                        padding: 20px;
+                        color: #f6f6f6;
+                        border: none;
+                        border-bottom: 2px rgba(255, 255, 255, 0.804) solid;
+                        outline: none   ;
+                    }
+                }
+                .div-button{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    button{
+                        padding: 20px;
+                        border-radius: 15px;
+                        background-color: rgb(65, 168, 228);
+                        border: none;
+                        width: 100%;
+                    }
+    
+                    button:hover{
+                        background-color: rgba(51, 135, 183, 0.703);
+                    }
+                }
+            }
+        }
+    }
+    .listas{
+        .lista{
+            background-color: #333;
+            color: #f6f6f6;
+            width: 95%;
+            padding: 10px;
+            border-radius: 20px;
+            display: flex;
+            margin-bottom: 20px;
+            h1{
+                width: 90%;
+            }
+
+            input{
+                margin-top: 10px;
+                width: 15%;
+                height: 60%;
+            }
+        }
+    }
+}
+
+.riscar {
+    text-decoration: line-through;
+}
